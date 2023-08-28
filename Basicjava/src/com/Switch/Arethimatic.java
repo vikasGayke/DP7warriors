@@ -1,4 +1,4 @@
-package com.ifelse;
+package com.Switch;
 import java.util.Scanner;
 
 public class Arethimatic {
