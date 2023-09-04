@@ -4,24 +4,22 @@ import java.util.Scanner;
 
 public class ArmsStrong {
 	static void armstrong(int num) {
-		int sum=0;
-		int temp=num;
+		int sum = 0;
+		int temp = num;
 		while (num > 0) {
 
 			int rem = num % 10;
 
-			sum =sum+ rem * rem * rem;
+			sum = sum + rem * rem * rem;
 			num /= 10;
 			System.out.println(sum);
 			System.out.println(num);
 
 		}
 		System.out.println(temp);
-		if(sum==temp)
-		{
+		if (sum == temp) {
 			System.out.println("armstrong");
-		}
-		else
+		} else
 			System.out.println("not armstrong");
 	}
 
